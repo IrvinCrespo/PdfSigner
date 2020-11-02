@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/zoom"
+        android:title="Editar"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_zoom_white">
+    </item>
+
+    <item
+        android:id="@+id/sign"
+        android:title="Mi firma"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_gesture_white">
+    </item>
+
+    <item
+        android:id="@+id/edit"
+        android:title="Editar"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_edit_white">
+    </item>
+
+    <group
+        android:id="@+id/delete_group"
+        android:visible="true">
+
+        <item
+            android:id="@+id/delete"
+            android:title="Borrar"
+            android:visible="false"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_delete_white">
+        </item>
+
+    </group>
+
+    <item
+        android:id="@+id/save"
+        android:title="Guargar"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_save_white">
+    </item>
+
+
+</menu>
